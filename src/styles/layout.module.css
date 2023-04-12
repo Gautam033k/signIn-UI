@@ -1,0 +1,15 @@
+.body {
+  display: grid;
+  grid-template-columns: 35% 75%;
+}
+
+.board__title {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  font-size: 72px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
