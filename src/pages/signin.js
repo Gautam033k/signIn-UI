@@ -9,7 +9,7 @@ import { signIn } from 'next-auth/react';
 
 const SignIn = () => {
   async function handleGoogleSignIn() {
-    signIn('google', { callbackUrl: 'https://sign-in-ui-alpha.vercel.app/' });
+    signIn('google', { callbackUrl: 'https://sign-in-ui-alpha.vercel.app' });
   }
 
   return (
